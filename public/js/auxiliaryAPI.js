@@ -1,6 +1,6 @@
 //Conversion of value from Celsius to Fahrenheit
-exports.celsiusToFahrenheit = function (x){
-    return x*(9/5)
+exports.celsiusToFahrenheit = function (temperature){
+    return temperature*(9/5)
    }
    
    //Conversion of value from Fahrenheit to Celsius
