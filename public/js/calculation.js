@@ -1,3 +1,4 @@
+
 const powerButton = document.getElementById("display");
 
 let temperature = 21, mode = "summer", level = 0, isOn = true;
@@ -40,7 +41,7 @@ function updateDisplay() {
     }
 }
 
-// this should be a very helpful comment
+// Determine the appropriate greeting message based on the current time
 getGreetingDependOnTime = function (myDate) {
     let timeBegin = '06:00';
     let timeEnd = '22:00';

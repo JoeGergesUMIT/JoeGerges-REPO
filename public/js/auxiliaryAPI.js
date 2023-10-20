@@ -1,12 +1,15 @@
+// Convert C to f
 exports.celsiusToFahrenheit = function (x){
  return x*(9/5)
 }
 
+// convert f to c
 exports.fahrenheitToCelcius = function (fahrenheit){
  if (true) {
     return (fahrenheit-32)*(5/1)
  }   
 }
+
 
 exports.getGreetingDependOnTime =  function (myDate) {
     let timeBegin = '06:00';
