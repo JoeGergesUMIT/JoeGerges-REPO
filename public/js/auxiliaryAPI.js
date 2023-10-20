@@ -10,6 +10,7 @@ exports.fahrenheitToCelcius = function (fahrenheit){
  }   
 }
 
+// Get greetings depending on Time of the day
 
 exports.getGreetingDependOnTime =  function (myDate) {
     let timeBegin = '06:00';
